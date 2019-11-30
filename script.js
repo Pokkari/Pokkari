@@ -1,0 +1,1 @@
+var skills = ["awdawd", "asdawd"];

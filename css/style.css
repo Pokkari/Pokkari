@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Sulphur Point', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+    color: #3b3b38;
+}
+.container{
+    display: flex;
+    flex-flow: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+
+nav .container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.nav-img img{
+    width: 7em;
+    height: auto;
+}
+.nav-list{
+    margin-top: 30px;
+    font-size: 1.3em;
+    text-align: right;
+    width: 70vw;
+}
+.nav-list a{
+    padding: 0 20px;
+    color: inherit;
+    letter-spacing: 1px;
+    transition: color .25s ease;
+}
+a:link, a:visited, .skills a{
+    text-decoration: none;
+}
+.nav-list a:hover{
+    color: #ff6961;
+}
+
+.intro{
+    font-size: 2.5em;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+.intro a{
+    color: #ff6961;
+    transition: color .25s ease;
+}
+.intro a:hover{
+    color: inherit;
+}
+
+.skills{
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+    background-color: #1E1E1E;
+    font-size: 1.5em;
+    padding: 5px 10px 0;
+}
+.skills span, .skills a{
+    font-family: 'Inconsolata', monospace;
+}
+.skills a{
+    color: inherit;
+}
+.top{
+    color: #3C3C3C;
+}
+.comms{
+    color: #f5f5f5;
+    text-align: right;
+    padding-left: 28.8em;
+}
+.index{
+    color: #f5f5f5;
+}
+.var{
+    color: #c5a5c5;
+}
+.bracket, .varname{
+    color: #ffffff;
+}
+.array{
+    color: #88c999;
+}
+
+.contact-links{
+    left: 0;
+    bottom: 0;
+    background-color: #c5c5c5;
+}
